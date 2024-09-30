@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.Container{
+    padding: 20px;
+    margin: 10px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.header-one__title{
+text-align: center;
+margin: 10px;
+
+}
+
+
+.header-one__desc{
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+li,ul{
+display: inline;
+}
+
+li:hover{
+
+    color: white;
+    cursor: pointer;
+}
+
+.product-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 2px;
+
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+
+.product-box__one{
+    width: 220px;  /* Product card width */
+    margin: 15px;
+    border: 3px solid black;
+    box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-align: center;  /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product:hover{
+    transform: scale(1.05);
+}
+
+.product-ox p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.product-box button {
+    background-color: #ff6f00;  /* Button color */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;  /* Add space at the bottom of the button */
+    width: 100%;
+    border-radius:0;
+    margin-bottom: 0;
+    
+}
+
+.product-box button:hover {
+    background-color: #b56514;  /* Darker button on hover */
+}
+
+.contact-us,.contact-us__desc,.contact-us__title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.contact-us__title{
+ margin-top: 10px;
+ font-size: 20px;
+}
+
+.contact-us__form,.contact-us__table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact-us__input{
+
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-us__submit{
+    background-color: rgb(255, 89, 0);
+    color: black;
+margin-top: 10px;
+margin-bottom: 10px;
+    width: 400px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contact-us__submit:hover{
+
+    background-color:rgb(255, 162, 0);
+    color: black;
+    border-color: rgb(58, 58, 17);
+    border-width: 2px;
+}
